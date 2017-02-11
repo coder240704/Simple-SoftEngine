@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{5F5CD177-9507-4EE4-8A46-6DC5EF7A8B65}</ProjectGuid>
+    <RootNamespace>HelloGraphics</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);</IncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>include</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>lib</AdditionalLibraryDirectories>
+      <AdditionalDependencies>sfml-graphics-d.lib;sfml-system-d.lib;sfml-window-d.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="Camera.h" />
+    <ClInclude Include="include\gmtl\AABox.h" />
+    <ClInclude Include="include\gmtl\AABoxOps.h" />
+    <ClInclude Include="include\gmtl\AxisAngle.h" />
+    <ClInclude Include="include\gmtl\AxisAngleOps.h" />
+    <ClInclude Include="include\gmtl\Comparitors.h" />
+    <ClInclude Include="include\gmtl\Config.h" />
+    <ClInclude Include="include\gmtl\Containment.h" />
+    <ClInclude Include="include\gmtl\Coord.h" />
+    <ClInclude Include="include\gmtl\CoordOps.h" />
+    <ClInclude Include="include\gmtl\Defines.h" />
+    <ClInclude Include="include\gmtl\EulerAngle.h" />
+    <ClInclude Include="include\gmtl\EulerAngleOps.h" />
+    <ClInclude Include="include\gmtl\Frustum.h" />
+    <ClInclude Include="include\gmtl\FrustumOps.h" />
+    <ClInclude Include="include\gmtl\Generate.h" />
+    <ClInclude Include="include\gmtl\gmtl.h" />
+    <ClInclude Include="include\gmtl\Helpers.h" />
+    <ClInclude Include="include\gmtl\Intersection.h" />
+    <ClInclude Include="include\gmtl\LineSeg.h" />
+    <ClInclude Include="include\gmtl\LineSegOps.h" />
+    <ClInclude Include="include\gmtl\Math.h" />
+    <ClInclude Include="include\gmtl\Matrix.h" />
+    <ClInclude Include="include\gmtl\MatrixOps.h" />
+    <ClInclude Include="include\gmtl\OOBox.h" />
+    <ClInclude Include="include\gmtl\Output.h" />
+    <ClInclude Include="include\gmtl\ParametricCurve.h" />
+    <ClInclude Include="include\gmtl\Plane.h" />
+    <ClInclude Include="include\gmtl\PlaneOps.h" />
+    <ClInclude Include="include\gmtl\Point.h" />
+    <ClInclude Include="include\gmtl\Quat.h" />
+    <ClInclude Include="include\gmtl\QuatOps.h" />
+    <ClInclude Include="include\gmtl\Ray.h" />
+    <ClInclude Include="include\gmtl\RayOps.h" />
+    <ClInclude Include="include\gmtl\Sphere.h" />
+    <ClInclude Include="include\gmtl\SphereOps.h" />
+    <ClInclude Include="include\gmtl\Tri.h" />
+    <ClInclude Include="include\gmtl\TriOps.h" />
+    <ClInclude Include="include\gmtl\Vec.h" />
+    <ClInclude Include="include\gmtl\VecBase.h" />
+    <ClInclude Include="include\gmtl\VecExprMeta.h" />
+    <ClInclude Include="include\gmtl\VecOps.h" />
+    <ClInclude Include="include\gmtl\VecOpsMeta.h" />
+    <ClInclude Include="include\gmtl\Version.h" />
+    <ClInclude Include="include\gmtl\Xforms.h" />
+    <ClInclude Include="include\json\picojson.h" />
+    <ClInclude Include="Material.h" />
+    <ClInclude Include="Mesh.h" />
+    <ClInclude Include="Model.h" />
+    <ClInclude Include="Render.h" />
+    <ClInclude Include="Texture.h" />
+    <ClInclude Include="Transform.h" />
+    <ClInclude Include="typedef.h" />
+    <ClInclude Include="vector.h" />
+    <ClInclude Include="device.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Camera.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Mesh.cpp" />
+    <ClCompile Include="Model.cpp" />
+    <ClCompile Include="render.cpp" />
+    <ClCompile Include="Texture.cpp" />
+    <ClCompile Include="Transform.cpp" />
+    <ClCompile Include="device.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

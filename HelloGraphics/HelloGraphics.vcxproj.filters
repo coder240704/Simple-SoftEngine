@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="GMTL">
+      <UniqueIdentifier>{a8b986ad-4bef-4b19-81c2-a5af55433d37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreLogic">
+      <UniqueIdentifier>{81a4d60a-7242-4d75-99a1-b61395557dd2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{8667822e-1936-49ee-87d4-5e787e839b0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Device">
+      <UniqueIdentifier>{dc14854e-337f-437c-8394-997993fc37b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Model">
+      <UniqueIdentifier>{10ee8a96-de11-4d92-b189-114c6ef35e68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="JSON">
+      <UniqueIdentifier>{903a4770-ed5a-42da-8ffb-3368c65a9c03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Window">
+      <UniqueIdentifier>{c939dbf1-22e8-43cf-b43a-ceb9d2368d24}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\gmtl\AABox.h">
+      <Filter>GMTL</Filter>
+    </ClInclude>
+    <ClInclude Include="include\gmtl\AABoxOps.h">
+      <Filter>GMTL</Filter>
+    </ClInclude>
+    <ClInclude Include="include\gmtl\AxisAngle.h">
+      <Filter>GMTL</Filter>
+    </ClInclude>
+    <ClInclude Include="include\gmtl\AxisAngleOps.h">
+      <Filter>GMTL</Filter>
+    </ClInclude>
+    <ClInclude Include="include\gmtl\Comparitors.h">
+      <Filter>GMTL</Filter>
+    </ClInclude>
+    <ClInclude Include="include\gmtl\Config.h">
+      <Filter>GMTL</Filter>
+    </ClInclude>
+    <ClInclude Include="include\gmtl\Containment.h">
+      <Filter>GMTL</Filter>
+    </ClInclude>
+    <ClInclude Include="include\gmtl\Coord.h">
+      <Filter>GMTL</Filter>
+    </ClInclude>
+    <ClInclude Include="include\gmtl\CoordOps.h">
+      <Filter>GMTL</Filter>
+    </ClInclude>
+    <ClInclude Include="include\gmtl\Defines.h">
+      <Filter>GMTL</Filter>
+    </ClInclude>
+    <ClInclude Include="include\gmtl\EulerAngle.h">
+      <Filter>GMTL</Filter>
+    </ClInclude>
+    <ClInclude Include="include\gmtl\EulerAngleOps.h">
+      <Filter>GMTL</Filter>
+    </ClInclude>
+    <ClInclude Include="include\gmtl\Frustum.h">
+      <Filter>GMTL</Filter>
+    </ClInclude>
+    <ClInclude Include="include\gmtl\FrustumOps.h">
+      <Filter>GMTL</Filter>
+    </ClInclude>
+    <ClInclude Include="include\gmtl\Generate.h">
+      <Filter>GMTL</Filter>
+    </ClInclude>
+    <ClInclude Include="include\gmtl\gmtl.h">
+      <Filter>GMTL</Filter>
+    </ClInclude>
+    <ClInclude Include="include\gmtl\Helpers.h">
+      <Filter>GMTL</Filter>
+    </ClInclude>
+    <ClInclude Include="include\gmtl\Intersection.h">
+      <Filter>GMTL</Filter>
+    </ClInclude>
+    <ClInclude Include="include\gmtl\LineSeg.h">
+      <Filter>GMTL</Filter>
+    </ClInclude>
+    <ClInclude Include="include\gmtl\LineSegOps.h">
+      <Filter>GMTL</Filter>
+    </ClInclude>
+    <ClInclude Include="include\gmtl\Math.h">
+      <Filter>GMTL</Filter>
+    </ClInclude>
+    <ClInclude Include="include\gmtl\Matrix.h">
+      <Filter>GMTL</Filter>
+    </ClInclude>
+    <ClInclude Include="include\gmtl\MatrixOps.h">
+      <Filter>GMTL</Filter>
+    </ClInclude>
+    <ClInclude Include="include\gmtl\OOBox.h">
+      <Filter>GMTL</Filter>
+    </ClInclude>
+    <ClInclude Include="include\gmtl\Output.h">
+      <Filter>GMTL</Filter>
+    </ClInclude>
+    <ClInclude Include="include\gmtl\ParametricCurve.h">
+      <Filter>GMTL</Filter>
+    </ClInclude>
+    <ClInclude Include="include\gmtl\Plane.h">
+      <Filter>GMTL</Filter>
+    </ClInclude>
+    <ClInclude Include="include\gmtl\PlaneOps.h">
+      <Filter>GMTL</Filter>
+    </ClInclude>
+    <ClInclude Include="include\gmtl\Point.h">
+      <Filter>GMTL</Filter>
+    </ClInclude>
+    <ClInclude Include="include\gmtl\Quat.h">
+      <Filter>GMTL</Filter>
+    </ClInclude>
+    <ClInclude Include="include\gmtl\QuatOps.h">
+      <Filter>GMTL</Filter>
+    </ClInclude>
+    <ClInclude Include="include\gmtl\Ray.h">
+      <Filter>GMTL</Filter>
+    </ClInclude>
+    <ClInclude Include="include\gmtl\RayOps.h">
+      <Filter>GMTL</Filter>
+    </ClInclude>
+    <ClInclude Include="include\gmtl\Sphere.h">
+      <Filter>GMTL</Filter>
+    </ClInclude>
+    <ClInclude Include="include\gmtl\SphereOps.h">
+      <Filter>GMTL</Filter>
+    </ClInclude>
+    <ClInclude Include="include\gmtl\Tri.h">
+      <Filter>GMTL</Filter>
+    </ClInclude>
+    <ClInclude Include="include\gmtl\TriOps.h">
+      <Filter>GMTL</Filter>
+    </ClInclude>
+    <ClInclude Include="include\gmtl\Vec.h">
+      <Filter>GMTL</Filter>
+    </ClInclude>
+    <ClInclude Include="include\gmtl\VecBase.h">
+      <Filter>GMTL</Filter>
+    </ClInclude>
+    <ClInclude Include="include\gmtl\VecExprMeta.h">
+      <Filter>GMTL</Filter>
+    </ClInclude>
+    <ClInclude Include="include\gmtl\VecOps.h">
+      <Filter>GMTL</Filter>
+    </ClInclude>
+    <ClInclude Include="include\gmtl\VecOpsMeta.h">
+      <Filter>GMTL</Filter>
+    </ClInclude>
+    <ClInclude Include="include\gmtl\Version.h">
+      <Filter>GMTL</Filter>
+    </ClInclude>
+    <ClInclude Include="include\gmtl\Xforms.h">
+      <Filter>GMTL</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>CoreLogic</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>CoreLogic</Filter>
+    </ClInclude>
+    <ClInclude Include="Render.h">
+      <Filter>CoreLogic</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.h">
+      <Filter>CoreLogic</Filter>
+    </ClInclude>
+    <ClInclude Include="typedef.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="vector.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="device.h">
+      <Filter>Device</Filter>
+    </ClInclude>
+    <ClInclude Include="include\json\picojson.h">
+      <Filter>JSON</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>CoreLogic</Filter>
+    </ClInclude>
+    <ClInclude Include="Material.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Camera.cpp">
+      <Filter>CoreLogic</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>CoreLogic</Filter>
+    </ClCompile>
+    <ClCompile Include="render.cpp">
+      <Filter>CoreLogic</Filter>
+    </ClCompile>
+    <ClCompile Include="Transform.cpp">
+      <Filter>CoreLogic</Filter>
+    </ClCompile>
+    <ClCompile Include="device.cpp">
+      <Filter>Device</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Window</Filter>
+    </ClCompile>
+    <ClCompile Include="Model.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>CoreLogic</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

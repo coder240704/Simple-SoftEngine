@@ -7,3 +7,4 @@ at https://www.davrous.com/2013/06/13/tutorial-series-learning-how-to-write-a-3d
  and implement my own version in c++.
   
 However, my c++ is so dirty because time I spent in learning it is so dirty.So, my code maybe is not good enough.
+  Dependencies: sfml-2.4.1
